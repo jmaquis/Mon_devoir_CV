@@ -1,0 +1,103 @@
+img{
+    width: 140px;
+    height: 150px;
+    border-radius: 150px;
+    margin-top: 3em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main{
+    width: 1160px;
+    background-color: white;
+    padding: 0px;
+}
+
+.container2{
+    background-color: #782221;
+    margin-right: 55em;
+    min-height: 1500px;
+    max-height: none;
+    margin-top: -20px;
+    text-align:left;
+}
+
+#a_propos h2{
+    padding-left: 1em;
+    border: solid 1px;
+    background-color: #dbc2a4;
+}
+
+#langues_parlées h2{
+    padding-left: 1em;
+    border: solid 1px;
+    background-color: #dbc2a4;
+}
+
+#centres_dintérêt h2{
+    padding-left: 1em;
+    border: solid 1px;
+    background-color: #dbc2a4;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    margin-left: 17em;
+    margin-top: -95em;
+}
+
+#experience_professionnelles h2{
+    border: solid 0px;
+    width: 825px;
+    background-color: #dbc2a4;
+}
+
+header{
+    background-color: #782221;
+    margin-top: -1em;
+    text-align: center;
+}
+
+#nom_prénom{
+    display: flex;
+    justify-content: space-around;
+}
+
+#emploi{
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dbc2a4;
+    height: 5em;
+    align-items: center;
+}
+
+address{
+    padding-left: 2em;
+}
+
+#mail{
+    margin-left: -5em; 
+}
+
+#telephone{
+    margin-right: 2em;
+}
+
+footer{
+    border: solid 0px;
+    min-height: 100px;
+    width: 840px;
+    margin-left: 280px;
+    background-color: #782221;
+}
