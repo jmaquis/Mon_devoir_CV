@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Raleway-VariableFont_wght";
+    src: url('/font/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @import url('/font/Lato/Lato-Regular.ttf');
+  
 img{
     width: 140px;
     height: 150px;
@@ -16,6 +23,7 @@ main{
     width: 1160px;
     background-color: white;
     padding: 0px;
+    border: solid 2px;
 }
 
 .container2{
@@ -48,14 +56,21 @@ main{
 .container3{
     display: flex;
     justify-content: center;
-    margin-left: 17em;
+    margin-left: 19em;
     margin-top: -95em;
+}
+
+.container4{
+    display: flex;
+    margin-top: 11px;
 }
 
 #experience_professionnelles h2{
     border: solid 0px;
-    width: 825px;
+    width: 860px;
     background-color: #dbc2a4;
+    margin-top: 30px;
+    margin-right: 15px;
 }
 
 header{
@@ -96,8 +111,25 @@ address{
 
 footer{
     border: solid 0px;
-    min-height: 100px;
-    width: 840px;
+    min-height: 101px;
+    width: 880px;
     margin-left: 280px;
     background-color: #782221;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+
+li p{
+    font-family: 'Raleway-VariableFont_wght';
+}
+
+h2{
+    font-family: 'Lato-Regular';
+}
+    
+#profile-image:hover{
+    cursor: zoom-in;
+    transform: scale(1.1);
+}
+    
