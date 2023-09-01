@@ -1,18 +1,4 @@
-@font-face {
-    font-family: "Raleway-VariableFont_wght";
-    src: url('/font/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
-  }
-
-  @import url('/font/Lato/Lato-Regular.ttf');
-  
-img{
-    width: 140px;
-    height: 150px;
-    border-radius: 150px;
-    margin-top: 3em;
-}
-
-body {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,73 +12,41 @@ main{
     border: solid 2px;
 }
 
-.container2{
-    background-color: #782221;
-    margin-right: 55em;
-    min-height: 1500px;
-    max-height: none;
-    margin-top: -20px;
-    text-align:left;
-}
-
-#a_propos h2{
-    padding-left: 1em;
-    border: solid 1px;
-    background-color: #dbc2a4;
-}
-
-#langues_parlées h2{
-    padding-left: 1em;
-    border: solid 1px;
-    background-color: #dbc2a4;
-}
-
-#centres_dintérêt h2{
-    padding-left: 1em;
-    border: solid 1px;
-    background-color: #dbc2a4;
-}
-
-.container3{
-    display: flex;
-    justify-content: center;
-    margin-left: 19em;
-    margin-top: -95em;
-}
-
-.container4{
-    display: flex;
-    margin-top: 11px;
-}
-
-#experience_professionnelles h2{
-    border: solid 0px;
-    width: 860px;
-    background-color: #dbc2a4;
-    margin-top: 30px;
-    margin-right: 15px;
-}
-
 header{
     background-color: #782221;
     margin-top: -1em;
     text-align: center;
 }
 
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-top: 3em;
+}
+
+#profile-image{
+    cursor: zoom-in;
+    transform: scale(1.1);
+}
+
 #nom_prénom{
     display: flex;
     justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 #emploi{
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 section{
     display: flex;
     justify-content: space-between;
-    background-color: #dbc2a4;
+    background-color: #2c1d27;
     height: 5em;
     align-items: center;
 }
@@ -102,34 +56,102 @@ address{
 }
 
 #mail{
-    margin-left: -5em; 
+    margin-left: -5em;
+    font-family: 'Raleway', sans-serif;
 }
 
 #telephone{
     margin-right: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container1{
+    background-color: #782221;
+    margin-right: 55em;
+    height: 1500px;
+    margin-top: -20px;
+    text-align:left;
+    color: white;
+}
+
+#a_propos h2{
+    padding-left: 1em;
+    border: solid 1px;
+    background-color: #dbc2a4;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+#langues_parlées h2{
+    padding-left: 1em;
+    border: solid 1px;
+    background-color: #dbc2a4;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+#centres_dintérêt h2{
+    padding-left: 1em;
+    border: solid 1px;
+    background-color: #dbc2a4;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.container2{
+    margin-left: 19em;
+    margin-top: -95em;
+}
+
+#experience_professionnelles h2{
+    border: solid 0px;
+    width: 840px;
+    background-color: #dbc2a4;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.container3{
+    display: flex;
+    height: 112px;
+    margin-left: 280px;
+    background-color: #782221;
+}
+
+#logos{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-top: -90px;
+    margin-left: 250px;
+}
+
+#logo_linkedin{
+    width: 50px;
+    height: 50px;
+}
+
+#logo_twitter{
+    width: 50px;
+    height: 50px;
+}
+
+#logo_github{
+    width: 50px;
+    height: 50px;
 }
 
 footer{
-    border: solid 0px;
-    min-height: 101px;
-    width: 880px;
-    margin-left: 280px;
-    background-color: #782221;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    position: fixed;
+    text-align: center;
 }
 
-li p{
-    font-family: 'Raleway-VariableFont_wght';
+h2:hover{
+    text-decoration: underline #782221;
 }
 
-h2{
-    font-family: 'Lato-Regular';
+a{
+    text-decoration: none;
+    color: white;
 }
-    
-#profile-image:hover{
-    cursor: zoom-in;
-    transform: scale(1.1);
-}
-    
+
